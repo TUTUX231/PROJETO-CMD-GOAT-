@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO CMD GOAT</title>
+    <style>
+        /* Estilo básico para o corpo da página */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* O novo cabeçalho (anteriormente rodapé) */
+        .cabecalho-topo {
+            display: flex; /* Permite alinhar itens lado a lado */
+            justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+            align-items: center;
+            background-color: #333; /* Cor escura para destacar a barra */
+            padding: 15px 30px;
+            color: white; /* Cor do texto no cabeçalho */
+        }
+
+        /* Estilo para a navegação (lista de links) */
+        .nav-links ul {
+            list-style: none; /* Remove os marcadores de lista */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Coloca os links lado a lado */
+            gap: 20px; /* Espaço entre os links */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos para a frase em si */
+        .frase-bonita {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 2.5em;
+            color: #1565c0; 
+            line-height: 1.3;
+            position: relative;
+            margin: 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+            /* Importante: Define a transição para a cor */
+            transition: color 0.4s ease-in-out;
+        }
+
+        /* 🎯 O EFEITO HOVER PRINCIPAL (MUDANÇA DE COR)  */
+        .frase-bonita:hover {
+            color: #ff6e40; /* Cor Laranja/Coral para destacar quando o mouse passar */
+            cursor: pointer; /* Muda o ícone do mouse para uma mãozinha */
+        }
+        .botao-elegante {
+            /* 1. Aparência */
+            padding: 15px 40px;
+            border: none; /* Remove a borda padrão */
+            border-radius: 50px; /* Cantos bem arredondados (formato de pílula) */
+            cursor: pointer; /* Adiciona a mãozinha */
+            font-size: 1.2em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            /* 2. Cores e Gradiente */
+            color: #ffffff; /* Texto branco */
+            background: linear-gradient(135deg, #2196f3 0%, #0d47a1 100%); /* Gradiente Azul */
+            
+            /* 3. Sombra e Transição */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+            transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+        }
+
+        /* Efeito HOVER (Mouse sobre o botão) */
+        .botao-elegante:hover {
+            background: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%); /* Gradiente um pouco mais claro */
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+            transform: translateY(-3px); /* Levanta o botão um pouco (efeito 3D) */
+        }
+
+        /* Efeito ACTIVE (Botão pressionado/clicado) */
+        .botao-elegante:active {
+            transform: translateY(0); /* Volta o botão à posição original */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduz a sombra (simula estar pressionado) */
+        }
+
+ 
+
+    </style>
+</head>
+<body>
+
+    <header class="cabecalho-topo">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="FLL.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Contatos.html">Contatos</a></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li><a href="PIX.html">  NOS AJUDE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 20px; text-align: center;">
+        <br><br><br><br>
+        <p class="frase-bonita">
+            Somos um grupo orgulhosamente mossoroense, forjado na dedicação. Em cada projeto, trabalhamos incansavelmente para materializar nossas conquistas, pois elas são o reflexo direto de nossa persistência.
+        </p>
+        <br>
+        <img src="Gemini_Generated_Image_4he1b34he1b34he1.png" height="200px">
+    </main>
+
+</body>
+</html>

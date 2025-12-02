@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO CMD GOAT</title>
+    <style>
+        /* Estilo básico para o corpo da página */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* O novo cabeçalho (anteriormente rodapé) */
+        .cabecalho-topo {
+            display: flex; /* Permite alinhar itens lado a lado */
+            justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+            align-items: center;
+            background-color: #333; /* Cor escura para destacar a barra */
+            padding: 15px 30px;
+            color: white; /* Cor do texto no cabeçalho */
+        }
+
+        /* Estilo para a navegação (lista de links) */
+        .nav-links ul {
+            list-style: none; /* Remove os marcadores de lista */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Coloca os links lado a lado */
+            gap: 20px; /* Espaço entre os links */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos para a frase em si */
+        .frase-bonita {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.5em;
+            color: #1565c0; 
+            line-height: 1.3;
+            position: relative;
+            margin: 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+            /* Importante: Define a transição para a cor */
+            transition: color 0.4s ease-in-out;
+        }
+
+        /* 🎯 O EFEITO HOVER PRINCIPAL (MUDANÇA DE COR)  */
+        .frase-bonita:hover {
+            color: #ff6e40; /* Cor Laranja/Coral para destacar quando o mouse passar */
+            cursor: pointer; /* Muda o ícone do mouse para uma mãozinha */
+        }
+        .botao-elegante {
+            /* 1. Aparência */
+            padding: 15px 40px;
+            border: none; /* Remove a borda padrão */
+            border-radius: 50px; /* Cantos bem arredondados (formato de pílula) */
+            cursor: pointer; /* Adiciona a mãozinha */
+            font-size: 1.2em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            /* 2. Cores e Gradiente */
+            color: #ffffff; /* Texto branco */
+            background: linear-gradient(135deg, #2196f3 0%, #0d47a1 100%); /* Gradiente Azul */
+            
+            /* 3. Sombra e Transição */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+            transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+        }
+
+        /* Efeito HOVER (Mouse sobre o botão) */
+        .botao-elegante:hover {
+            background: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%); /* Gradiente um pouco mais claro */
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+            transform: translateY(-3px); /* Levanta o botão um pouco (efeito 3D) */
+        }
+
+        /* Efeito ACTIVE (Botão pressionado/clicado) */
+        .botao-elegante:active {
+            transform: translateY(0); /* Volta o botão à posição original */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduz a sombra (simula estar pressionado) */
+        }
+
+ 
+
+    </style>
+</head>
+<body>
+
+    <header class="cabecalho-topo">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="FLL.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 20px; text-align: center;">
+      
+        <p class="frase-bonita">Somos o time de robótica CMD GOAT, a representação mossoroense na FIRST LEGO League (FLL). Nosso grupo é movido por uma dedicação incansável e conquistamos nosso espaço com trabalho duro e inovação (em nosso robô e Projeto de Inovação).
+
+Temos um sonho grande: levar o nosso projeto além e representar a força do nosso estado na próxima fase da FLL!
+
+No entanto, os custos logísticos, de materiais e de viagem são elevados. Pedimos o seu apoio para que nosso esforço não pare aqui. Seja um padrinho da inovação!
+
+Ajude-nos a ir além: Colabore e nos ajude a transformar a dedicação de Mossoró em uma vitória nacional na robótica!</p>
+
+<img src="Imagem do WhatsApp de 2025-11-10 à(s) 10.09.52_2ee4f71e.jpg" height="220PX">
+<p>PIX-127.207.354-85</p>
+<P>CADA CENTAVO FAZ A DIFERENÇA</P>
+
+</body>
+</html>
